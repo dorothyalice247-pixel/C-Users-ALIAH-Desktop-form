@@ -1,0 +1,13 @@
+#box{
+    width:200px;
+    height:200px;
+    background-color: red;
+    font-size:13em;
+    text-align: center;
+    animation-name:rotate;
+    animation-duration: 2s;
+}
+@keyframes rotate{ 
+ 50%{transform:rotateZ(360deg)}
+}
+   
